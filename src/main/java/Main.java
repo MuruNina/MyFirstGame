@@ -15,6 +15,8 @@ public class Main {
         kirie.setAge(35);
         kirie.setAge(10);
         kirie.meow();
+        Cat bobik = new Cat();
+        bobik.meow();
         while (true){
             kirie.meow();
             Thread.sleep(2000);
